@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadData() {
         try {
-            const response = await fetch('/api/modules');
+            const response = await fetch('./static/data/mock_data.json');
             const data = await response.json();
             allModulesData = data.modules;
             userProjects = data.user_projects;
