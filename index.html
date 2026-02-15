@@ -8,15 +8,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='assets/frame_bug.svg') }}">
+	<link rel="icon" type="image/svg+xml" href="./static/assets/frame_bug.svg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
 
 	<header class="app-header">
-		<img src="{{ url_for('static', filename='assets/ResPlusLogoTrans.png') }}" alt="ResPlus Logo" class="app-logo">
+		<img src="./static/assets/ResPlusLogoTrans.png" alt="ResPlus Logo" class="app-logo">
 			
 		<div class="header-controls">
 			<div class="theme-switcher">
@@ -55,6 +55,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="./static/js/main.js"></script>
 </body>
 </html>
