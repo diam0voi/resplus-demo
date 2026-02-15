@@ -1,0 +1,57 @@
+{
+  "user_projects": [
+    { "id": "proj_1", "name": "Awesome Cat App", "stars": 120, "forks": 30 },
+    { "id": "proj_2", "name": "AI Task Manager", "stars": 85, "forks": 15 },
+    { "id": "proj_3", "name": "Minimalistic CSS Framework", "stars": 250, "forks": 90 },
+    { "id": "proj_4", "name": "Data Visualizer", "stars": 45, "forks": 5 }
+  ],
+  "modules": [
+    {
+      "id": "github_stats_1",
+      "type": "github_stats",
+      "title": "Общая статистика GitHub",
+      "icon": "hub",
+      "data": {
+        "contributions": 1245,
+        "stars": 455,
+        "repositories": 23,
+        "top_languages": [
+          { "lang": "TypeScript", "percent": 65 },
+          { "lang": "Python", "percent": 25 },
+          { "lang": "Shell", "percent": 10 }
+        ]
+      }
+    },
+    {
+      "id": "tech_stack_1",
+      "type": "tech_stack",
+      "title": "Технологический стек",
+      "icon": "code",
+      "data": {
+        "tags": ["React", "Node.js", "PostgreSQL", "Docker", "AWS", "Figma"]
+      }
+    },
+    {
+      "id": "project_chart_1",
+      "type": "project_chart",
+      "title": "Статистика по проектам",
+      "icon": "bar_chart",
+      "is_configurable": true,
+      "data": {
+        "default_projects": ["proj_1", "proj_2"]
+      }
+    },
+    {
+      "id": "pet_project_1",
+      "type": "pet_project",
+      "title": "Избранный проект",
+      "icon": "pets",
+      "data": {
+        "name": "Awesome Cat App",
+        "description": "Приложение для отслеживания настроения кота. Использует AI для анализа мурчания.",
+        "link": "https://github.com/healthonrails/annolid",
+        "image": "https://i.pinimg.com/736x/a7/93/cf/a793cfd0ff7f52d849ea1d3b08a9270c.jpg"
+      }
+    }
+  ]
+}
